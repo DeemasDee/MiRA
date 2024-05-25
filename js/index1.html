@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Image Segmentation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dicom-parser"></script>
+  <script src="script1.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Medical Image Segmentation</h1>
+    <input type="file" id="dicomInput" multiple>
+    <button id="trainButton">Train Model</button>
+    <div id="output"></div>
+  </div>
+</body>
+</html>
